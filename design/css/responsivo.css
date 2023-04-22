@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     body{
-        background-image: url(/images/bg-mobile.svg);
+        background-image: url(/landing-page-com-secao-introdutoria-unica/images/bg-mobile.svg);
     }
     .AreaCentral {
         padding-top: 50px;

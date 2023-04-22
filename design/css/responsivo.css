@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+    body{
+        background-image: url(/images/bg-mobile.svg);
+    }
+    .AreaCentral {
+        padding-top: 50px;
+        flex-direction: column;
+
+    }
+
+
+    .AreaCentral img {
+        width: 100%;
+    }
+
+    .informacoes {
+       
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    footer {
+        padding-top: 50px;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .redes-sociais {
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+
+    .attribution {
+        order: 2;
+        padding: 10px;
+    }
+}

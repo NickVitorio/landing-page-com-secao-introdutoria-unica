@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(257, 40%, 49%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.cabecalho {
+
+    padding-top: 20px;
+    width: 100%;
+}
+
+.AreaCentral {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+.cabecalho img {
+    width: 200px;
+}
+
+.ilustracao {
+    width: 50%;
+}
+
+.informacoes {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50px;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    gap: 30px;
+    
+
+}
+
+
+
+.botao {
+    border: none;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: hsl(257, 40%, 49%);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 5px #000;
+}
+.botao:hover{
+    background-color: #e882e8;
+   
+    color: #ffffff;
+   
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+   color: #ffffff;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+
+.redes-sociais{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+
+}
+
+.iconi{
+   height: 100%;
+    cursor: pointer;
+    filter: invert();
+    transition: 0.3s ease-in-out;
+}
+
+.iconi:hover{
+    filter: invert(71%) sepia(69%) saturate(1129%) hue-rotate(239deg) brightness(96%) contrast(90%);
+}
+
+.attribution a{
+    color: #e882e8;
+}
+
+.attribution a:hover{
+    color: #ffea00;
+}
